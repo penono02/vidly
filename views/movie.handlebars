@@ -1,0 +1,45 @@
+<Doctype html>
+<html>
+<head>
+  <title>Movie Rental</title>
+
+</head>
+
+<body>
+  <h1>The Movies App is on</h1>
+
+  <h2>Please pick your Movie</h2>
+
+<form method="post" action="/api/rental/">
+<table>
+
+  <th>MovieID</th><th>Title</th><th>Genre</th><th>Number In Stock </th><th>Daily Rental Rate</th>
+  {{#each findAllMovies}}
+  <tr>
+      <td>{{_id}}</td><td>{{title}}</td><td>{{genre.name}}</td><td>{{numberInStock}}</td><td>{{dailyRentalRate}}</td>
+      <td>
+          <input type="checkbox" name="movies" value="{{_id}}" />
+      </td>
+  </tr>
+  {{/each}}
+
+</table><br />
+<input type="submit" value="Submit" />
+</form>
+<script>
+
+ var checkbox = document.querySelectorAll("input[name=movies]");
+ /*
+for(var i=0; i <checkbox.length; i++){
+   checkbox[i].addEventListener('change', function(){
+
+         if (this.checked){
+           alert(this.value);
+         }
+   });
+
+*/
+</script>
+</body>
+
+</html>

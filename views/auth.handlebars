@@ -1,0 +1,24 @@
+<Doctype html>
+<html>
+<head>
+  <title>User Authentication</title>
+</head>
+
+<body>
+  <h1>User Authentication</h1>
+
+  <form method="post" action="/api/auth/">
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email" />
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" />
+    <input type="submit" value="Validate" />
+  </form>
+  <p>
+    <a href="/api/users/forgotPassword">Forgot Password</a>
+    <a href="/api/users/">new user? Click Me to Register</a>
+    <a href="/api/rented/">rented So far</a>
+  </p>
+</body>
+
+</html>

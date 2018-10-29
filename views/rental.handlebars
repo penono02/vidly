@@ -1,0 +1,53 @@
+<Doctype html>
+<html>
+<head>
+  <title>Movies App</title>
+</head>
+
+<body>
+  <h1>The Movies App is on</h1>
+
+  <h2>All Movies</h2>
+<table>
+  <th>MovieID</th><th>Title</th><th>Genre</th><th>Number In Stock </th><th>Daily Rental Rate</th>
+  {{#each movie}}
+  <tr>
+      <td>{{_id}}</td><td>{{title}}</td><td>{{genre.name}}</td><td>{{numberInStock}}</td><td>{{dailyRentalRate}}</td>
+  </tr>
+  {{/each}}
+</table><br />
+
+
+<h2>All Customers</h2>
+<table>
+<th>Customer ID</th><th>Username</th><th>Name</th><th>isGold</th><th>Phone Number</th>
+{{#each customer}}
+<tr>
+    <td>{{_id}}</td><td>{{username}}</td><td>{{title}}</td><td>{{isGold}}</td><td>{{phone}}</td>
+</tr>
+{{/each}}
+</table><br />
+
+
+<h2>All rentals</h2>
+<table>
+<th>customer Name</th><th> Movie title</th></th><th>Date rented</th><th>Phone Number</th>
+{{#each rental}}
+<tr>
+    <td>{{customer.name}}</td><td>{{movie.title}}</td><td>{{dateOut}}</td>><td>{{customer.phone}}</td>
+</tr>
+{{/each}}
+</table><br />
+
+<form method="post" action="/api/rental/">
+  <label for="updateId">Customer Id: </label>
+  <input type="text" name="customerId" id="customerId" />
+  <label for="title">Movie Id:</label>
+  <input type="text" name="movieId" id="movieId" />
+
+  <input type="submit" value="Rent" />
+</form>
+
+</body>
+
+</html>

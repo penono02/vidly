@@ -1,0 +1,28 @@
+<Doctype html>
+<html>
+<head>
+  <title>User Registration</title>
+
+</head>
+
+<body>
+  <h1>User Registration</h1>
+
+  <form method="post" action="/api/users/">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" />
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email" />
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" />
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="phone" />
+    <select name="isAdmin">
+     <option value="true">True</option>
+    <option value="False">false</option>
+    </select>
+    <input type="submit" value="Register" />
+  </form>
+</body>
+
+</html>
