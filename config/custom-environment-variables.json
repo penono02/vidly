@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey":"vidly_jwtPrivateKey",
   "db":"vidly_db",
-  "emailPassword":"penono1$b",
+  "emailPassword":"emailPass",
   "emailApi_key":"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"
 }

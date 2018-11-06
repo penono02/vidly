@@ -1319,3 +1319,5 @@
 {"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:45:58.714Z"}
 {"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:46:03.510Z"}
 {"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:46:04.604Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T16:23:20.080Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T16:23:21.165Z"}
