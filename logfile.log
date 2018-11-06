@@ -1296,3 +1296,26 @@
 {"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-10-29T01:51:46.797Z"}
 {"level":"info","message":"connected to the database","timestamp":"2018-10-29T01:51:47.872Z"}
 {"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-10-29T22:34:05.403Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T01:40:05.410Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T01:41:33.715Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T01:53:47.530Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T01:57:52.967Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:02:22.037Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:04:50.404Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:07:13.025Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:12:21.520Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:13:04.550Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:13:05.636Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:14:56.059Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:14:57.195Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:15:55.866Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:15:56.975Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:33:44.521Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:33:45.607Z"}
+{"message":"sendgrid.send is not a function","stack":"TypeError: sendgrid.send is not a function\n    at c:\\Node JS\\udemy\\vidly\\messaging\\sendEmail.js:9:12\n    at newFn (c:\\Node JS\\udemy\\vidly\\node_modules\\express-async-errors\\index.js:25:20)\n    at Layer.handle [as handle_request] (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (c:\\Node JS\\udemy\\vidly\\node_modules\\express-async-errors\\index.js:25:20)\n    at Layer.handle [as handle_request] (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (c:\\Node JS\\udemy\\vidly\\node_modules\\express-async-errors\\index.js:25:20)\n    at Layer.handle [as handle_request] (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (c:\\Node JS\\udemy\\vidly\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2018-11-06T02:35:31.229Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:44:58.398Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:44:59.554Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:45:57.548Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:45:58.714Z"}
+{"level":"info","message":"Listening on port 3000 ...","timestamp":"2018-11-06T02:46:03.510Z"}
+{"level":"info","message":"connected to the database","timestamp":"2018-11-06T02:46:04.604Z"}

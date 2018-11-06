@@ -1,4 +1,6 @@
 {
   "jwtPrivateKey":"1234",
-  "db":"mongodb://localhost:27017/vidly"
+  "db":"mongodb://localhost:27017/vidly",
+  "emailPassword":"penono1$b",
+  "emailApi_key":"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"
 }

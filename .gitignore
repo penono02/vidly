@@ -2,3 +2,5 @@ node_modules/
 coverage/
 helper/
 test/
+startup/mailgoogle
+startup/mail
