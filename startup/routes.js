@@ -10,13 +10,15 @@ const error = require('../middleware/error');
 const bodyParser = require('body-parser');
 const home = require('../routes/index');
 const rented = require('../routes/rented');
-const messaging = require('../messaging/sendEmail');
+const sendEmail = require('../messaging/sendEmail');
+const sendText = require('../messaging/sendText');
 
 module.exports = function (app){
 
   app.use(bodyParser.urlencoded({extended:false}));
   app.use('/', home);
-  app.use('/api/messaging', messaging);
+  app.use('/api/messaging', sendEmail);
+  app.use('/api/sendText', sendText);
   app.use('/api/genre', genre);
   app.use('/api/rental', rental);
   app.use('/api/movie', movieApi);

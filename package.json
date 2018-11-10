@@ -30,6 +30,7 @@
     "mongoose": "^5.2.14",
     "nodemailer": "^4.6.8",
     "sendgrid": "^5.2.3",
+    "twilio": "^3.23.2",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0",
     "xoauth2": "^1.2.0"
